@@ -1,0 +1,167 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 2px solid #42006C;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+.text {
+    color: #3c009d;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+    margin: 0 auto;
+}
+
+.inputs {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input,
+.input-container select {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* New style for side-by-side input pairs */
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.side-by-side .input-container {
+    flex: 1;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-input {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.skill-input input {
+    flex: 1;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.skill-input button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #42006C;
+    background-color: #42006C;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.skill-input button:hover {
+    background-color: #2A00B7;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill-chip {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #eaeaea;
+    border-radius: 20px;
+    font-size: 14px;
+    position: relative;
+}
+
+.skill-chip .delete-chip {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.submit {
+    width: 100%;
+    height: 50px;
+    background: #42006C;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #2A00B7;
+}
